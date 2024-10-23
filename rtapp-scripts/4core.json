@@ -1,0 +1,46 @@
+{
+"global":{
+    "duration": 360000,
+    "calibration": "CPU4",
+    "logdir": "./logs",
+    "gnuplot": true
+},
+
+"tasks":{
+
+    "high-freq0":{
+        "cpus": [0],
+        "instance": 1,
+        "run": 50,
+        "sleep": 150
+    },
+  
+     "high-freq1":{
+        "cpus": [1],
+        "instance": 1,
+        "run": 50,
+        "sleep": 150
+    },
+    
+    "high-freq2":{
+        "cpus": [2],
+        "instance": 1,
+        "run": 50,
+        "sleep": 150
+    },
+     
+    "high-freq3":{
+        "cpus": [3],
+        "instance": 1,
+        "run": 50,
+        "sleep": 150
+    }
+
+   
+
+
+
+}
+}
+
+

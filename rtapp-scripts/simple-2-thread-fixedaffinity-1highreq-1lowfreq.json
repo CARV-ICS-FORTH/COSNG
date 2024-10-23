@@ -1,0 +1,23 @@
+{
+"global":{
+    "duration": 60,
+    "calibration": 0,
+    "logdir": "./logs",
+    "gnuplot": true
+},
+
+"tasks":{
+    "low-freq": {
+        "cpus": [1],
+        "instance": 1,
+        "run": 1000,
+        "sleep": 9000
+    },
+    "high-freq":{
+        "cpus": [3],
+        "instance": 1,
+        "run": 50,
+        "sleep": 150
+    }
+}
+}

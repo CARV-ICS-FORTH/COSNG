@@ -1,0 +1,27 @@
+{
+"global":{
+    "duration": 36000,
+    "calibration": "CPU4",
+    "logdir": "./logs",
+    "gnuplot": true
+},
+
+"tasks":{
+
+    "high-freq":{
+        "cpus": [0],
+        "instance": 1,
+        "run": 50,
+        "sleep": 150
+
+
+    },
+
+   
+
+
+
+}
+}
+
+
