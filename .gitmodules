@@ -1,0 +1,3 @@
+[submodule "rt-app"]
+	path = rt-app
+	url = https://github.com/vflouris/rt-app.git
