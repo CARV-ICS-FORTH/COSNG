@@ -162,7 +162,6 @@ fi
 NPB_PATH=$(dirname $0)
 BENCHMARK=$1
 CLASS=$2
-NUM_THREADS=${3:-$(nproc)}
 BINARY="${NPB_PATH}/bin/${BENCHMARK}.${CLASS}.x"
 
 # Check if the benchmark exists
@@ -176,7 +175,6 @@ fi
 echo "Running $BENCHMARK (Class $CLASS) with $NUM_THREADS threads..."
 
 # Set OpenMP environment variables
-export OMP_NUM_THREADS=$NUM_THREADS
 export NPB_TIMER_FLAG=1  # Detailed timing
 
 # Run the benchmark
